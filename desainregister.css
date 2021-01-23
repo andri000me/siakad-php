@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url("loginregisterbg.png");
+}
+
+div.konten{
+	background: #FFF8DC;
+	width: 350px;
+	margin: 222px auto 0;
+	border-radius: 16px;
+	min-height: 256px;
+	overflow: hidden;
+}
+
+div.kepala{
+	background: #7B68EE;
+	padding: 10px 22px;
+	height: 60px;
+}
+
+div.kepala h2.judul{
+	color: #000000;
+	font-weight: normal;
+	line-height: 40px;
+	display: inline-block;
+}
+
+div.lock{
+	background-image: url("userlogo.jpg");
+	background-position: center;
+	background-size: 38px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin-top: 8px;
+	float: left;
+	margin-right: 10px;
+}
+
+div.artikel{
+	padding:10px 22px 0;
+	color: #4B0082;
+}
+
+div.artikel div.grup{
+	padding:6px 0;
+}
+
+div.artikel div.grup label,
+div.artikel div.grup input{
+	display: block;
+}
+
+div.artikel div.grup label{
+	font-size:13px;
+	margin-bottom: 10px;
+}
+
+div.artikel div.grup input[type="submit"]{
+	background: #7B68EE;
+	padding: 4px 16px;
+	margin: 0 auto;
+	border: 1px solid #20B2AA;
+	border-radius: 2px;
+	color: #000000;
+	cursor: pointer;
+}
+
+div.artikel div.grup input[type="submit"]:hover{
+	background: #7B68EE;
+}
